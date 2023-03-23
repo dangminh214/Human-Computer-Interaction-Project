@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Collection type="LevelSegment">
+    <LevelSegment>
+        <LevelSocket side="left">0,1,1,1,1</LevelSocket>
+        <LevelSocket side="right">0,1,1,1,1</LevelSocket>
+        <Sprite
+            src="@drawable/ls_flipflop"
+            width="2220" height="1080"
+            columns="1" rows="1"
+            />
+        <Collection type="Polygon" collisionType="barrier">
+            <Polygon>
+                <vertex x="1" y="700"/>
+                <vertex x="420" y="700"/>
+                <vertex x="420" y="800"/>
+                <vertex x="1" y="800"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="470" y="0"/>
+                <vertex x="770" y="0"/>
+                <vertex x="770" y="100"/>
+                <vertex x="470" y="100"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="780" y="525"/>
+                <vertex x="1080" y="525"/>
+                <vertex x="1080" y="625"/>
+                <vertex x="780" y="625"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1100" y="0"/>
+                <vertex x="1400" y="0"/>
+                <vertex x="1400" y="100"/>
+                <vertex x="1100" y="100"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1400" y="525"/>
+                <vertex x="1700" y="525"/>
+                <vertex x="1700" y="625"/>
+                <vertex x="1400" y="625"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1670" y="0"/>
+                <vertex x="1970" y="0"/>
+                <vertex x="1970" y="100"/>
+                <vertex x="1670" y="100"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1920" y="525"/>
+                <vertex x="2220" y="525"/>
+                <vertex x="2220" y="625"/>
+                <vertex x="1920" y="625"/>
+            </Polygon>
+        </Collection>
+    </LevelSegment>
+
+    <LevelSegment>
+        <LevelSocket side="left">0,1,1,1,1</LevelSocket>
+        <LevelSocket side="right">0,1,1,1,1</LevelSocket>
+        <Sprite
+            src="@drawable/ls_stairs"
+            width="2220" height="1080"
+            cols="1" rows="1"
+            />
+        <Collection type="Polygon" collisionType="barrier">
+            <Polygon>
+                <vertex x="1" y="700"/>
+                <vertex x="420" y="700"/>
+                <vertex x="420" y="800"/>
+                <vertex x="1" y="800"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="450" y="330"/>
+                <vertex x="690" y="330"/>
+                <vertex x="690" y="430"/>
+                <vertex x="450" y="430"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="690" y="160"/>
+                <vertex x="930" y="160"/>
+                <vertex x="930" y="260"/>
+                <vertex x="690" y="260"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="930" y="0"/>
+                <vertex x="1410" y="0"/>
+                <vertex x="1410" y="100"/>
+                <vertex x="930" y="100"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1330" y="350"/>
+                <vertex x="1740" y="350"/>
+                <vertex x="1740" y="450"/>
+                <vertex x="1330" y="450"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1750" y="450"/>
+                <vertex x="1990" y="450"/>
+                <vertex x="1990" y="550"/>
+                <vertex x="1750" y="550"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1980" y="570"/>
+                <vertex x="2220" y="570"/>
+                <vertex x="2220" y="670"/>
+                <vertex x="1980" y="670"/>
+            </Polygon>
+        </Collection>
+    </LevelSegment>
+
+    <LevelSegment>
+        <LevelSocket side="left">0,1,1,1,1</LevelSocket>
+        <LevelSocket side="right">0,1,1,1,1</LevelSocket>
+        <Sprite
+            src="@drawable/ls_ramp"
+            width="2220" height="1080"
+            columns="1" rows="1"
+            />
+        <Collection type="Polygon" collisionType="barrier">
+            <Polygon>
+                <vertex x="1" y="700"/>
+                <vertex x="380" y="700"/>
+                <vertex x="380" y="800"/>
+                <vertex x="1" y="800"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="380" y="700"/>
+                <vertex x="800" y="550"/>
+                <vertex x="800" y="700"/>
+                <vertex x="800" y="800"/>
+                <vertex x="380" y="800"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="620" y="320"/>
+                <vertex x="620" y="100"/>
+                <vertex x="620" y="0"/>
+                <vertex x="1170" y="0"/>
+                <vertex x="1170" y="100"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1100" y="430"/>
+                <vertex x="1450" y="430"/>
+                <vertex x="1450" y="530"/>
+                <vertex x="1100" y="530"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1280" y="0"/>
+                <vertex x="1850" y="0"/>
+                <vertex x="1850" y="100"/>
+                <vertex x="1280" y="100"/>
+            </Polygon>
+            <Polygon>
+                <vertex x="1700" y="340"/>
+                <vertex x="2220" y="490"/>
+                <vertex x="1700" y="490"/>
+            </Polygon>
+        </Collection>
+    </LevelSegment>
+</Collection>

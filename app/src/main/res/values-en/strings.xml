@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s_highscore">Highscore</string>
+    <string name="s_settings">Settings</string>
+    <string name="s_language">Language</string>
+    <string name="s_languageName">English (traditional)</string>
+    <string name="s_MenuScoreList">Highscores</string>
+    <string name="s_appeareance">Appeareance</string>
+    <string name="s_return">Back</string>
+    <string name="s_continue">Continue</string>
+    <string name="s_SettingsSound">Sound</string>
+    <string name="s_SettingsSFX">Sound Effects</string>
+    <string name="s_SettingsMusic">Music</string>
+    <string name="s_SettingsGame">Game</string>
+    <string name="s_changeUsername">Change Username</string>
+    <string name="s_pause">Pause</string>
+    <string name="s_UsernamePlaceholder">Unnamed</string>
+    <string name="s_UsernameEntryMessage">Please enter your prefered Display Name</string>
+    <string name="s_MenuStartButton">tap screen to play</string>
+    <string name="s_settingsSpeed">Speed</string>
+</resources>

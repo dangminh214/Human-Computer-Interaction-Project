@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="s_highscore">Punktzahl</string>
+    <string name="s_settings">Einstellungen</string>
+    <string name="s_language">Sprache</string>
+    <string name="s_languageName">Deutsch</string>
+    <string name="s_MenuScoreList">Highscores</string>
+    <string name="s_appeareance">Aussehen</string>
+    <string name="s_return">Zurück</string>
+    <string name="s_continue">Weiter</string>
+    <string name="s_SettingsSound">Audio</string>
+    <string name="s_SettingsSFX">Effekte</string>
+    <string name="s_SettingsMusic">Musik</string>
+    <string name="s_SettingsGame">Spiel</string>
+    <string name="s_changeUsername">Nutzername ändern</string>
+    <string name="s_pause">Pause</string>
+    <string name="s_UsernamePlaceholder">Unbenannt</string>
+    <string name="s_UsernameEntryMessage">Bitte gib deinen Nutzernamen ein</string>
+    <string name="s_MenuStartButton">Bildschirm berühren zum starten</string>
+    <string name="s_settingsSpeed">Geschwindigkeit</string>
+</resources>

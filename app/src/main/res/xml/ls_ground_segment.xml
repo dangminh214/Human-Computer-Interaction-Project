@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LevelSegment>
+    <LevelSocket side="left">0,1,1,1,1</LevelSocket>
+    <LevelSocket side="right">0,1,1,1,1</LevelSocket>
+    <Sprite
+        src="@drawable/ls_ground"
+        width="2220" height="1080"
+        columns="1" rows="1"
+        />
+    <Collection type="Polygon" collisionType="barrier">
+        <Polygon>
+            <vertex x="0" y="0"/>
+            <vertex x="100" y="0"/>
+            <vertex x="100" y="2220"/>
+            <vertex x="0" y="2220"/>
+        </Polygon>
+        <Polygon>
+            <vertex x="1" y="700"/>
+            <vertex x="2200" y="700"/>
+            <vertex x="2200" y="800"/>
+            <vertex x="1" y="800"/>
+        </Polygon>
+    </Collection>
+</LevelSegment>
